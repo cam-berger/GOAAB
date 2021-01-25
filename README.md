@@ -3,11 +3,11 @@ The CICFlowMeter is an open source tool that generates Biflows from pcap files, 
 
 # Installation and executing CICFlowMeter:
 
-For Linux
+For Linux (prereq)
 
 > $ sudo apt-get install libpcap-dev
 
-## executing
+## Executing
 Go to the extracted directory,enter the 'bin' folder
 
 ### linux
@@ -16,7 +16,7 @@ Open a terminal and run this command
 For GUI:
 > $ sudo ./CICFlowMeter
 
-//For Command line:
+For Command line:
 > $ ./cfm "inputFolder" "outputFolder"
 
 # For executing GOAAB in Linux:
