@@ -18,7 +18,7 @@ sudo ./CICFlowMeter
 
 //For Command line:
 ./cfm "inputFolder" "outputFolder"
-
+```
 # For executing GOAAB:
 
 For Linux
