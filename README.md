@@ -21,13 +21,13 @@ For Command line:
 
 # For executing GOAAB in Linux:
 
-usage: GOAAB.py [-h] [--pcap <pcap file name>] [--csv <csv file name>] [--train]
+usage: GOAAB.py [-h] [--pcap \<pcap file name\>] [--csv \<csv file name\>] [--train]
   
 ## For training mode run
-> $ python3 GOAAB.py [--csv <csv file name>] [--train]
+> $ python3 GOAAB.py [--csv \<csv file name\>] [--train]
 
 ## For getting Flow data from a '.pcap' source run
-> $ python3 GOAAB.py  [--pcap <pcap file name>]
+> $ python3 GOAAB.py  [--pcap \<pcap file name\>]
 
 Note: you cannot train in pcap mode because labeling is too inconsistent accross datasets
 
