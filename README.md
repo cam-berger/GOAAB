@@ -47,8 +47,8 @@ Note: you cannot train in pcap mode because labeling is too inconsistent accross
 > $ python3 GOAAB.py ISCX_Botnet-Testing.pcap --train
 > $ python3 GOAAB.py ISCX_Botnet-Training.pcap --train
 
-### This will give you two processed datasets for labeling (may take some time)
-### *SEE MY DATAANALYSIS NOTEBOOK FOR REFERENCE TO THE FOLLOWING*
+This will give you two processed datasets for labeling (may take some time)
+*SEE MY DATAANALYSIS NOTEBOOK FOR REFERENCE TO THE FOLLOWING*
 
 6. Now merge the two datasets in jupyter notebooks
 7. In jupyter notebooks, hash the malicious ips from listofmaliciousips.docx. I copied the list at the bottom of this file to a spreadsheet and saved as a CSV file.
