@@ -1,0 +1,7 @@
+README.md
+setup.py
+GOAABenv.egg-info/PKG-INFO
+GOAABenv.egg-info/SOURCES.txt
+GOAABenv.egg-info/dependency_links.txt
+GOAABenv.egg-info/requires.txt
+GOAABenv.egg-info/top_level.txt
