@@ -54,6 +54,14 @@ This will give you two processed datasets for labeling (may take some time)
 6. Now merge the two datasets in jupyter notebooks
 7. In jupyter notebooks, hash the malicious ips from listofmaliciousips.docx. I copied the list at the bottom of this file to a spreadsheet and saved as a CSV file.
 8. For each ip address in the merged dataset, check it against the hashes of malicious ips, if it hits, that ip is malicious, otherwise its not, add to the 'Label' column its appropriate Label (malicious == 1, benign =-0). 
-7. Export the labeled merged dataset as a csv file for use in training/testing.
+7. Export the labeled merged dataset as a csv file for use in training/testing with index flag set to false
+
+# To intsall the environment and test the code
+### 1. Inside /GOAABenv directory run:
+> $ pip install -e .
+
+### 2. From directory with Botnet2014.csv run:
+> $ python3 testRL.py
+
 
 
